@@ -1,0 +1,320 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  .top-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr  ;
+      
+     
+  }
+  .item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:#E1EBF0;
+      padding-top: 20px;
+  }
+ .one{
+      grid-column: span 6;
+  }
+  .two{
+      grid-column: span 3;
+  }
+  .three{
+      grid-column: span 3;
+  }
+  .four{
+      grid-column: span 2;
+  }
+  .five{
+      grid-column: span 2;
+  }
+  .six{
+      grid-column: span 2;
+  } 
+  .intr-container{
+      display: grid;
+      grid-template-columns: 300px 1fr 300px ;
+      grid-template-rows: 100px 100px   ;          
+      background-color: #E1EBF0;
+    
+  } 
+  .mid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+  } 
+  .girl1{
+      justify-content: left;
+      align-items: start;
+      grid-row: span 2 ;
+      padding-top: 40px;
+  }
+  .girl2{
+      justify-content: right;
+      align-items:first baseline;
+      grid-row: span 2 ;
+  }
+  .text1{
+      color: #477A91;
+      font-size: 3.5rem;
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight:bolder;
+      font-style: normal;
+  }
+  .text2{
+      color: #7cc0cc;
+      font-size: 2rem;
+      font-family: "Edu AU VIC WA NT Hand", cursive;
+      font-optical-sizing: auto;
+      font-weight:bolder;
+      font-style: normal;
+  }
+  .picture-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;          
+      background-color:#E1EBF0;
+      padding-bottom: 50px;
+      padding-top: 30px;
+  } 
+  .pic{
+      display: flex;
+      
+  } 
+  .girl3{
+     
+      margin-left: 180px;
+  }
+  .girl4{
+      justify-content: center;
+      align-items: center;
+  }
+  .girl5{
+      margin-left: 70px;
+  }
+  .middle-container{
+      display: grid;
+      grid-template-rows: 1fr 100px 180px;
+      padding-top: 70px;
+      flex-direction: row;
+      background-color: #FFFFFF;
+      padding-bottom: 80px;
+
+  }
+  .my{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .picm{
+      border-radius: 50%;
+      overflow: hidden;
+      width: 230px;
+      height: 230px;
+      margin-left: 42%;
+  } 
+  .picm img{ 
+     width: 100%; 
+      height: auto;
+  }
+  .text3{
+      color: #D6AA58;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.8rem;
+      font-weight: normal;
+      margin-top: 20px;
+  }
+  .text4{
+      margin: auto;
+      line-height: 1.8;
+      width: 48%;
+      
+  }
+  .my p{
+      text-align: center;
+      font-family: "Dosis", sans-serif;
+      font-optical-sizing: auto;
+      font-size: 1.3rem;
+      font-style: normal;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+  }
+  .hobby-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr ; 
+      grid-template-rows: 6 repeat(1fr);         
+      background-color: #A9CDD4;
+      padding-top: 25px;
+  }
+  .hob img{
+      border: 5px solid white;
+      border-radius: 15px 50px 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .hob{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-left: 35px;
+      margin-right: 35px;
+      margin-bottom: 20px;
+    
+  }
+  .bies{
+      grid-column: span 2;
+      color: #286a89;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.8rem;
+      font-weight: normal;
+      margin-top: 20px;
+      padding-bottom: 30px;
+  }
+  .hob p{
+      margin: 20px;
+      color: black;
+      font-size:20px;
+      font-family: "Dosis", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:420 ;
+      font-style: normal;
+}
+
+ 
+  .project-container{
+    padding-top:50px ;
+    background-color: white;
+}
+h4{
+    color: #D6AA58;
+    font-size: 20px
+}
+.container p{
+    font-size: 15px;
+    color: #477A91;
+}
+  .ject{
+      grid-column: span 2;
+      color: #477A91;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.8rem;
+      font-weight: normal;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .first-project-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .second-project-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+  } 
+  .card {
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    background-color:#E1EBF0;
+    height: 400px;
+    width: 400px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card img {
+    border-radius: 5px 5px 0 0;}
+  .container {
+    padding: 2px 16px;
+  }
+  .skill-container{
+    padding-top:10px ;
+    background-color:#A9CDD4;
+    padding-bottom: 20px;
+}
+  .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    grid-column: span 2;
+    color: #477A91;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.8rem;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+.skill{
+    padding: 20px;
+   
+}
+.s-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container{
+    padding-top:10px ;
+    background-color:white;
+    padding-bottom: 20px;
+}
+
+.conn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    grid-column: span 2;
+    color: #D6AA58;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.8rem;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+.con-nect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    padding: 20px;
+}
+.footer{
+    background-color: #E1EBF0;
+    height: 40%;
+    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #477A91;
+}
+
+
+
+
+
